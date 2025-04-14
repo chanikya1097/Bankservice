@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 public class GoogleMapsService {
 
     // Use the same API key for all Google Maps Platform APIs (Geocoding and Places)
-    private final String apiKey = "AIzaSyCRxDDOKVN3GPB3wFTgI1AZsPNXrFWUKac";  // Replace with your actual API key
+    private final String apiKey = "Your API KEY";  // Replace with your actual API key
 
     // Converts the provided zipcode into latitude and longitude using the Geocoding API
     public double[] getCoordinates(String zipcode) {
